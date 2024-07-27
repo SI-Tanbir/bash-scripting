@@ -1,0 +1,19 @@
+#!/usr/bin/bash
+if  [ -f "$1" ]
+
+then
+	
+	echo " The argument is a file, displaying its contents.."
+	sleep 1
+	cat $1
+
+elif [ -d "$1" ]
+then
+	echo "This argument is a folder ,showing it contents...."
+	sleep 1
+	ls $1
+
+else
+	echo "This is not file or folder enter folder name to see it content"
+
+fi

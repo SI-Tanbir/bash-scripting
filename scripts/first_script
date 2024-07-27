@@ -1,0 +1,8 @@
+#!/usr/bin/bash
+
+mkdir -p dir1
+#this is first single line comments
+echo "Hello bash World!"> dir1/file.txt
+:' this is mulitline comment in bash'
+tree .
+cat dir1/file.txt
